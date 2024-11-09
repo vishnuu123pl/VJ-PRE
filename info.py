@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '13305226'))
+API_HASH = environ.get('API_HASH', '8cde2475d6b0cb1162b89ebbac71a95d')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6140039186:AAENPg840-YyxhHXRn7dqT-DILRwBpyIams")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -98,8 +98,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'publicearn.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ad10140eb7845e10ad90acdd6acc902c1b79fbc4')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'inshorturl.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'fd85d405b577f2cd524e5d8a185505383d0d4e97')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'inshorturl.com')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'fd85d405b577f2cd524e5d8a185505383d0d4e97')
